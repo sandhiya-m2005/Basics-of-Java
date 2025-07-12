@@ -5,11 +5,12 @@ class car{
         this.model=model;
         this.year=year;
     }
+void display(){
+System.out.println("model"+" "+"year");
 }
 public class cls {
     public static void main(String[] args) {
-        car c=new car("Toyota",2020);
-        System.out.println("model:"+c.model);
-        System.out.println("year:"+c.year);
+         car c = new car("toyota",2020);
+       c.display();
     }
 }
