@@ -1,0 +1,16 @@
+interface animals{
+    void sound();
+}
+class dog implements animals{
+
+    @Override
+    public void sound() {
+        System.out.println("woof");
+    }
+}
+public class Exg {
+    public static void main(String[] args) {
+        dog d=new dog();
+        d.sound();
+    }
+}
