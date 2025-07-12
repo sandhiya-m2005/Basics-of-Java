@@ -6,8 +6,8 @@ class car{
         this.year=year;
     }
 void display(){
-System.out.println("model"+" "+"year");
-}
+System.out.println(model+" "+year);
+}}
 public class cls {
     public static void main(String[] args) {
          car c = new car("toyota",2020);
