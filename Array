@@ -1,0 +1,8 @@
+public class array {
+    public static void main(String[] args) {
+        int[]num={1,2,3,4,5,};
+        String[]fruit={"apple","banana","orange"};
+        System.out.println("Fourth Number:"+num[3]);
+        System.out.println("Second Fruit:"+fruit[2]);
+    }
+}
