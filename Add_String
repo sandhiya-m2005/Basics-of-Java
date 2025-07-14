@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Datatypes {
+    public static void main(String[] args) {
+Scanner anu=new Scanner(System.in);
+String a=anu.nextLine();
+String b=anu.nextLine();
+        System.out.println("Add two Strings:"+(a+b));
+
+    }
+}
