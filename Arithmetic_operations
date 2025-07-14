@@ -1,0 +1,11 @@
+ public class cls {
+        public static void main(String[] args) {
+            int a=19;
+            int b=23;
+            int c=89;
+            System.out.println("Add:" +(a+b+c));
+            System.out.println("Subtraction:"+(a-b-c));
+            System.out.println("Multipy:"+(a*b*c));
+            System.out.println("Division:"+(c/a));
+        }
+    }
