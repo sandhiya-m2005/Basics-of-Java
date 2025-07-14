@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class emc {
+    public static void main(String[] args) {
+Scanner anu=new Scanner(System.in);
+int a=anu.nextInt();
+int b=anu.nextInt();
+        System.out.print("Sum of two num:"+(a+b));
+    }
+}
