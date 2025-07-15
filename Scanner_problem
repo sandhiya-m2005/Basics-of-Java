@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class practice {
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        String Name=a.nextLine();
+        int Age=a.nextInt();
+        a.nextLine();
+        String Address=a.nextLine();
+        System.out.println("Name:"+(Name));
+        System.out.println("Age:"+(Age));
+        System.out.println("Address:"+(Address));
+    }
+}
