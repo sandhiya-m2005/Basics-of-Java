@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class mark {
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        String Name=a.nextLine();
+        int Score=a.nextInt();
+        String Dept=a.next();
+        System.out.println(Name);
+        System.out.println(Score);
+        int convert=Score/10;
+        System.out.println(convert+"/10");
+        System.out.println(Dept);
+
+    }
+}
