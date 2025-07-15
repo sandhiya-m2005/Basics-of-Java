@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Sub{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int Maths=sc.nextInt();
+        int English= sc.nextInt();
+        int Science= sc.nextInt();
+        int Social= sc.nextInt();
+        int Tamil=sc.nextInt();
+        int Average=(Maths+Science+Social+English+Tamil)/2;
+if(Average<35){
+    System.out.println("Additional class is required");
+}
+else{
+    System.out.println("You are good to go");
+}
+    }}
