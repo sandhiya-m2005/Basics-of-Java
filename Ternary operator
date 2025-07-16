@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class ternary{
+    public static void main(String[] args) {
+        boolean rain=true;
+String res=rain ?"Take an Umbrella":"Enjoy the Sunlight";
+        System.out.println(res);
+    }
+}
