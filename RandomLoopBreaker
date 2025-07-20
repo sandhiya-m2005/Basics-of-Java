@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class Whileloop{
+    public static void main(String[] args) {
+        Random rd=new Random();
+        int num=0;
+        while(num!=5){
+            num=rd.nextInt(9);
+            System.out.println(num);
+        }
+    }}
