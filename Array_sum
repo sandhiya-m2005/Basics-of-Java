@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class array {
+    public static void main(String[] args) {
+Scanner s=new Scanner(System.in);
+int[]score=new int[4];
+score[0]=s.nextInt();
+score[1]=s.nextInt();
+score[2]=s.nextInt();
+score[3]=s.nextInt();
+        System.out.println(score[0]+score[1]+score[2]+score[3]);}}
